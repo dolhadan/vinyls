@@ -2,9 +2,6 @@ import './App.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Virtual } from "swiper/modules";
 import collection from "./collections.json";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-coverflow";
 import {useState} from "react";
 
 // Dummy data
@@ -47,7 +44,7 @@ export default function App() {
                       <SwiperSlide key={vinyl.artist} className="swiperSlide" virtualIndex={index}>
                           <div className="vinylCard">
                               <img
-                                  src={`/covers/${vinyl.id}.jpg`}
+                                  src={`/vinyls/covers/${vinyl.id}.jpg`}
                                   alt={`${vinyl.artist} - ${vinyl.title}`}
                                   className="coverArt"
                               />
