@@ -7,7 +7,7 @@ import {useState} from "react";
 // Dummy data
 
 export default function App() {
-    const [activeIndex, setActiveIndex] = useState(0)
+    const [activeIndex, setActiveIndex] = useState(collection.records.length -2)
 
   return (
       <div className="container">
@@ -42,14 +42,11 @@ export default function App() {
               >
                   {collection.records.map((vinyl, index) => (
                       <SwiperSlide key={vinyl.artist} className="swiperSlide" virtualIndex={index}>
-                          <div className="vinylCard">
                               <img
                                   src={`/vinyls/covers/${vinyl.id}.jpg`}
                                   alt={`${vinyl.artist} - ${vinyl.title}`}
                                   className="coverArt"
                               />
-
-                          </div>
                       </SwiperSlide>
                   ))}
               </Swiper>
