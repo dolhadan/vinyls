@@ -1,0 +1,139 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* Container for the entire app */
+.container {
+  width: '100%';
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Segmented Control Wrapper */
+.segmentedControlWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/* Segmented buttons */
+.segmentButton {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.segmentButton:hover {
+  background-color: #eee;
+}
+
+/* Active segmented button styling */
+.activeSegmentButton {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+/* Swiper container */
+.carouselContainer {
+  width: 100%;
+  max-width: 1108px;
+  position: relative;
+}
+
+/* Swiper overrides */
+.swiper {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+/* Each slide alignment */
+.swiperSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The vinyl card within each slide */
+.vinylCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Cover art size */
+.coverArt {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Text container */
+.albumTextContainer {
+  margin-top: 1.5rem;
+  position: absolute;
+  bottom: 0,
+}
+
+/* Artist / album styling */
+.artistName {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.4rem
+}
+
+.albumName {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 767px) {
+  .coverArt {
+    width: 90%;
+    height: auto;
+  }
+}

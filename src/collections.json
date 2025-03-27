@@ -1,0 +1,203 @@
+{
+  "records": [
+    {
+      "artist": "Ed Sheeran",
+      "title": "÷",
+      "publishedAt": "2017-03-03",
+      "releaseID": "e05f9927-e24b-41c5-928d-d0e008a12444",
+      "id": 0
+    },
+    {
+      "artist": "Frank Sinatra",
+      "title": "A Jolly Christmas From Frank Sinatra",
+      "publishedAt": "1957-09",
+      "releaseID": "505ccc55-cfcd-3deb-aaef-1fce83eddd53",
+      "id": 1
+    },
+    {
+      "artist": "Queen",
+      "title": "Greatest Hits II",
+      "publishedAt": "1991-10-28",
+      "releaseID": "152499ea-d489-386a-bfde-f632dcc950f3",
+      "id": 2
+    },
+    {
+      "artist": "Dire Straits",
+      "title": "Dire Straits",
+      "publishedAt": "1978-06-02",
+      "releaseID": "0c9bc273-a9e9-3290-b423-c61b9f8d20bc",
+      "id": 3
+    },
+    {
+      "artist": "Fleetwood Mac",
+      "title": "Fleetwood Mac",
+      "publishedAt": "1975-07-11",
+      "releaseID": "6b5d9bf1-f496-34b5-9488-7df2533d6208",
+      "id": 4
+    },
+    {
+      "artist": "Fleetwood Mac",
+      "title": "Rumours",
+      "publishedAt": "1977-02-04",
+      "releaseID": "416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6",
+      "id": 5
+    },
+    {
+      "artist": "Angie McMahon",
+      "title": "Light, Dark, Light Again",
+      "publishedAt": "2023-10-27",
+      "releaseID": "ef4d5b18-655e-400d-9a21-900ed81ac650",
+      "id": 6
+    },
+    {
+      "artist": "The Night Café",
+      "title": "0151",
+      "publishedAt": "2019-08-23",
+      "releaseID": "b3bc7025-5a85-49f5-be92-19a8c30ee5a4",
+      "id": 7
+    },
+    {
+      "artist": "Kings of Leon",
+      "title": "Only by the Night",
+      "publishedAt": "2008-09-19",
+      "releaseID": "7a23bc7e-d7bd-3a22-a38d-7d1f793bae1c",
+      "id": 8
+    },
+    {
+      "artist": "Nothing But Thieves",
+      "title": "Nothing But Thieves",
+      "publishedAt": "2015-02-05",
+      "releaseID": "7b043d9a-b5e1-4ab8-970e-1b0130726029",
+      "id": 9
+    },
+    {
+      "artist": "Mumford & Sons",
+      "title": "Sigh No More",
+      "publishedAt": "2009-10-05",
+      "releaseID": "e098b168-2395-4be9-9bfa-ed6e8b488182",
+      "id": 10
+    },
+    {
+      "artist": "Paolo Nutini",
+      "title": "Caustic Love",
+      "publishedAt": "2014-04-11",
+      "releaseID": "debe7f92-dc96-43ae-ae40-28852fdde33c",
+      "id": 11
+    },
+    {
+      "artist": "Harry Styles",
+      "title": "Harry’s House",
+      "publishedAt": "2022-04-20",
+      "releaseID": "d712ba0e-25fa-4c03-aecd-ec0c100deba5",
+      "id": 12
+    },
+    {
+      "artist": "The Strokes",
+      "title": "First Impressions of Earth",
+      "publishedAt": "2005-12-30",
+      "releaseID": "5ef51a9b-55eb-3400-99a8-47b892e11df7",
+      "id": 13
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "title": "Whatever People Say I Am, That’s What I’m Not",
+      "publishedAt": "2006-01-23",
+      "releaseID": "6c9c4985-3628-3070-b956-b538f30c9bea",
+      "id": 14
+    },
+    {
+      "artist": "Biffy Clyro",
+      "title": "Only Revolutions",
+      "publishedAt": "2009-11-06",
+      "releaseID": "7d3c6e15-3758-4f90-af46-96d835ab0f9a",
+      "id": 15
+    },
+    {
+      "artist": "Kings of Leon",
+      "title": "WALLS",
+      "publishedAt": "2016-10-14",
+      "releaseID": "0cd14270-9999-4c8b-ac84-06a52cad5c64",
+      "id": 16
+    },
+    {
+      "artist": "Radiohead",
+      "title": "The Bends",
+      "publishedAt": "1994-11-29",
+      "releaseID": "b8048f24-c026-3398-b23a-b5e50716cbc7",
+      "id": 17
+    },
+    {
+      "artist": "The Cure",
+      "title": "Disintegration",
+      "publishedAt": "1989-05-01",
+      "releaseID": "494bf606-d2f7-36d0-8340-eadad8601d2b",
+      "id": 18
+    },
+    {
+      "artist": "Cigarettes After Sex",
+      "title": "Cigarettes After Sex",
+      "publishedAt": "2011-11-26",
+      "releaseID": "13cf0499-957e-479a-bc51-46516a57dd01",
+      "id": 19
+    },
+    {
+      "artist": "The National",
+      "title": "Sleep Well Beast",
+      "publishedAt": "2017-09-08",
+      "releaseID": "8018fc24-6a55-45b0-8b34-19650522550a",
+      "id": 20
+    },
+    {
+      "artist": "The National",
+      "title": "Boxer",
+      "publishedAt": "2007-05-21",
+      "releaseID": "9facb475-4c5f-369b-9b93-1280e6669090",
+      "id": 21
+    },
+    {
+      "artist": "Foals",
+      "title": "Holy Fire",
+      "publishedAt": "2013-01-31",
+      "releaseID": "fdcf14da-08bf-407a-a0af-6f9582b82131",
+      "id": 22
+    },
+    {
+      "artist": "The xx",
+      "title": "xx",
+      "publishedAt": "2009-08-14",
+      "releaseID": "23355caf-a543-4b5f-80fe-449101868fc1",
+      "id": 23
+    },
+    {
+      "artist": "MGMT",
+      "title": "Oracular Spectacular",
+      "publishedAt": "2007-10-02",
+      "releaseID": "f7da2770-bf72-3dea-8904-ff6135822724",
+      "id": 24
+    },
+    {
+      "artist": "twenty one pilots",
+      "title": "Scaled and Icy",
+      "publishedAt": "2021-05-21",
+      "releaseID": "56a58213-5784-44d3-859c-8ae84e4f47cc",
+      "id": 25
+    },
+    {
+      "artist": "Metronomy",
+      "title": "The English Riviera",
+      "publishedAt": "2011-04-08",
+      "releaseID": "f5979376-c7af-4bb5-a25b-d38f9ab584dc",
+      "id": 26
+    },
+    {
+      "artist": "Rhye",
+      "title": "Woman",
+      "publishedAt": "2013-01",
+      "releaseID": "192ce1c3-c790-4019-a1f9-4006d296ea53",
+      "id": 27
+    }
+  ],
+  "metadata": {
+    "lastUsedID": 27
+  }
+}
