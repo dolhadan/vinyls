@@ -1,5 +1,8 @@
 @import 'swiper/css';
 @import 'swiper/css/effect-coverflow';
+@import 'swiper/css/keyboard';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
 
 #root {
     margin: 0;
@@ -68,7 +71,7 @@
 .carouselContainer {
     max-width: 1108px;
     max-height: 90vh;
-    flex: 4;
+    flex: 6;
 }
 
 /* Swiper overrides */
@@ -112,7 +115,7 @@
 .albumName {
     margin: 0;
     font-size: 1.2rem;
-    white-space: normal;       /* Allows line breaks */
+    white-space: normal; /* Allows line breaks */
     word-break: break-word;
 }
 
