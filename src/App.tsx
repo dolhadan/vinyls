@@ -1,60 +1,57 @@
-import './App.css'
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Virtual } from "swiper/modules";
-import collection from "./collections.json";
-import {useState} from "react";
-
-// Dummy data
+import './App.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import {  Virtual } from 'swiper/modules';
+import collection from './collections.json';
+import { useState } from 'react';
+import classNames from "classnames";
 
 export default function App() {
-    const [activeIndex, setActiveIndex] = useState(collection.records.length -2)
-
-  return (
-      <div className="container">
-          {/* Swiper Carousel */}
-          <div className="carouselContainer">
-              <Swiper
-                  effect="coverflow"
-                  centeredSlides={true}
-                  slidesPerView={2}
-                  initialSlide={activeIndex}
-                  onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
-                  coverflowEffect={{
-                      rotate: 0,
-                      stretch: 0,
-                      depth: 500,
-                      modifier: 1,
-                      slideShadows: false,
-                  }}
-                  modules={[EffectCoverflow, Virtual]}
-                  // Responsive breakpoints for mobile
-                  breakpoints={{
-                      0: {
-                          slidesPerView: 1,
-                          effect: 'slide',
-                      },
-                      768: {
-                          slidesPerView: 2,
-                      },
-                  }}
-                  className="swiper"
-                  virtual
-              >
-                  {collection.records.map((vinyl, index) => (
-                      <SwiperSlide key={vinyl.artist} className="swiperSlide" virtualIndex={index}>
-                              <img
-                                  src={`/vinyls/covers/${vinyl.id}.jpg`}
-                                  alt={`${vinyl.artist} - ${vinyl.title}`}
-                                  className="coverArt"
-                              />
-                      </SwiperSlide>
-                  ))}
-              </Swiper>
-          </div>
-          <div className="albumTextContainer">
-              <p className="artistName">{collection.records[activeIndex].artist}</p>
-              <p className="albumName">{collection.records[activeIndex].title}</p>
-          </div>
-      </div>
-  );
+    const [recordsField, setRecordsField] = useState<'records' | 'wishlist'>('records')
+    const records = collection[recordsField];
+    return (
+        <div className="container">
+            <div className="header">
+                <div className={'segmentedControl'}>
+                    <div className={classNames({activeSegmentButton: recordsField ==='records'})} onClick={() => {
+                        setRecordsField('records')
+                    }}>owned
+                    </div>
+                    <div className={classNames({activeSegmentButton: recordsField ==='wishlist'})} onClick={() => {
+                        setRecordsField('wishlist')
+                    }}>wishlist
+                    </div>
+                </div>
+            </div>
+            {/* Swiper Carousel */}
+            <div className="carouselContainer">
+                <Swiper
+                    effect="slide"
+                    centeredSlides={true}
+                    slidesPerView={1}
+                    modules={[Virtual]}
+                    className="swiper"
+                    key={recordsField}
+                    virtual
+                >
+                    {records.map((vinyl, index) => (
+                        <SwiperSlide
+                            key={vinyl.artist}
+                            className="swiperSlide"
+                            virtualIndex={index}
+                        >
+                            <img
+                                src={`/vinyls/covers/${vinyl.id}.jpg`}
+                                alt={`${vinyl.artist} - ${vinyl.title}`}
+                                className="coverArt"
+                            />
+                            <div className="albumTextContainer">
+                                <p className="artistName">{vinyl.artist}</p>
+                                <p className="albumName">{vinyl.title}</p>
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+        </div>
+    );
 }

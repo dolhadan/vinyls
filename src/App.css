@@ -2,7 +2,9 @@
 @import 'swiper/css/effect-coverflow';
 
 #root {
-    text-align: center;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
 }
 
 /* Container for the entire app */
@@ -15,6 +17,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    height: 100vh;
 }
 
 /* Segmented Control Wrapper */
@@ -25,12 +28,29 @@
 }
 
 /* Segmented buttons */
-.segmentButton {
+.segmentedControl {
     border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    /*background-color: #f9f9f9;*/
     cursor: pointer;
     outline: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    > * {
+        padding: 0.5rem 1rem;
+        min-width: 4rem;
+    }
+    > *:not(:first-child) {
+        border-left: 1px solid #ccc;
+    }
+}
+
+.header {
+    flex: 1;
 }
 
 .segmentButton:hover {
@@ -40,6 +60,7 @@
 /* Active segmented button styling */
 .activeSegmentButton {
     background-color: #ddd;
+    color: #000;
     font-weight: bold;
 }
 
@@ -47,6 +68,7 @@
 .carouselContainer {
     max-width: 1108px;
     max-height: 90vh;
+    flex: 4;
 }
 
 /* Swiper overrides */
@@ -59,6 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 /* Cover art size */
@@ -70,9 +93,10 @@
 
 /* Text container */
 .albumTextContainer {
-    position: absolute;
-    bottom: -4rem;
-    max-width: 90vw;
+    flex: 1;
+    text-align: center;
+    margin-top: 2rem;
+    max-width: 98vw;
 }
 
 /* Artist / album styling */
@@ -80,11 +104,16 @@
     font-weight: bold;
     margin: 0;
     font-size: 1.4rem;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .albumName {
     margin: 0;
     font-size: 1.2rem;
+    white-space: normal;       /* Allows line breaks */
+    word-break: break-word;
 }
 
 .searchBar {
@@ -94,6 +123,6 @@
 @media (max-width: 767px) {
     .coverArt {
         width: 90vw;
-        height: auto;
+        height: 90vw;
     }
 }

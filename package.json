@@ -12,6 +12,7 @@
         "generate": "ts-node --compiler-options '{\"module\":\"CommonJS\"}' cli/cli.ts"
     },
     "dependencies": {
+        "classnames": "^2.5.1",
         "musicbrainz-api": "^0.21.0",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
