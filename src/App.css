@@ -1,96 +1,99 @@
-@import "swiper/css";
-@import "swiper/css/effect-coverflow";
+@import 'swiper/css';
+@import 'swiper/css/effect-coverflow';
 
 #root {
-overflow: hidden;
-  text-align: center;
+    text-align: center;
 }
 
 /* Container for the entire app */
 .container {
-  max-width: 100vw;
-  max-height: 100vh;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    max-width: 100vw;
+    max-height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 /* Segmented Control Wrapper */
 .segmentedControlWrapper {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 
 /* Segmented buttons */
 .segmentButton {
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  outline: none;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    outline: none;
 }
 
 .segmentButton:hover {
-  background-color: #eee;
+    background-color: #eee;
 }
 
 /* Active segmented button styling */
 .activeSegmentButton {
-  background-color: #ddd;
-  font-weight: bold;
+    background-color: #ddd;
+    font-weight: bold;
 }
 
 /* Swiper container */
 .carouselContainer {
-  max-width: 1108px;
-  max-height: 90vh;
-  position: relative;
+    max-width: 1108px;
+    max-height: 90vh;
 }
 
 /* Swiper overrides */
 .swiper {
-  padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* Each slide alignment */
 .swiperSlide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Cover art size */
 .coverArt {
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
 }
 
 /* Text container */
 .albumTextContainer {
-  margin-top: 1.5rem;
-  position: absolute;
-  bottom: 5rem;
+    position: absolute;
+    bottom: -4rem;
+    max-width: 90vw;
 }
 
 /* Artist / album styling */
 .artistName {
-  font-weight: bold;
-  margin: 0;
-  font-size: 1.4rem
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.4rem;
 }
 
 .albumName {
-  margin: 0;
-  font-size: 1.2rem;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.searchBar {
+    justify-self: flex-start;
 }
 
 @media (max-width: 767px) {
-  .coverArt {
-    width: 90vw;
-    height: auto;
-  }
+    .coverArt {
+        width: 90vw;
+        height: auto;
+    }
 }

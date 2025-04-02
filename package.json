@@ -1,39 +1,43 @@
 {
-  "name": "vinyls",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "generate": "ts-node --compiler-options '{\"module\":\"CommonJS\"}' cli/cli.ts"
-  },
-  "dependencies": {
-    "musicbrainz-api": "^0.21.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-swiper": "^0.1.5",
-    "swiper": "^11.2.5"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "@types/node": "^22.13.13",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react": "^4.3.4",
-    "axios": "^1.8.4",
-    "commander": "^13.1.0",
-    "eslint": "^9.21.0",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "fs": "^0.0.1-security",
-    "globals": "^15.15.0",
-    "inquirer": "^12.5.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.2",
-    "typescript-eslint": "^8.24.1",
-    "vite": "^6.2.0"
-  }
+    "name": "vinyls",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "format": "prettier --write .",
+        "generate": "ts-node --compiler-options '{\"module\":\"CommonJS\"}' cli/cli.ts"
+    },
+    "dependencies": {
+        "musicbrainz-api": "^0.21.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-swiper": "^0.1.5",
+        "swiper": "^11.2.5"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.21.0",
+        "@types/node": "^22.13.13",
+        "@types/react": "^19.0.10",
+        "@types/react-dom": "^19.0.4",
+        "@vitejs/plugin-react": "^4.3.4",
+        "axios": "^1.8.4",
+        "commander": "^13.1.0",
+        "eslint": "^9.21.0",
+        "eslint-config-prettier": "^10.1.1",
+        "eslint-plugin-prettier": "^5.2.5",
+        "eslint-plugin-react-hooks": "^5.1.0",
+        "eslint-plugin-react-refresh": "^0.4.19",
+        "fs": "^0.0.1-security",
+        "globals": "^15.15.0",
+        "inquirer": "^12.5.0",
+        "prettier": "^3.5.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.2",
+        "typescript-eslint": "^8.24.1",
+        "vite": "^6.2.0"
+    }
 }
