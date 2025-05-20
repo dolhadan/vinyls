@@ -195,6 +195,34 @@
             "publishedAt": "2013-01",
             "releaseID": "192ce1c3-c790-4019-a1f9-4006d296ea53",
             "id": 27
+        },
+        {
+            "artist": "Pink Floyd",
+            "title": "The Wall",
+            "publishedAt": "1979-11-30",
+            "releaseID": "f2026101-945b-3d05-9ef4-aa718fc3feef",
+            "id": 47
+        },
+        {
+            "artist": "Hozier",
+            "title": "Hozier",
+            "publishedAt": "2014-06-10",
+            "releaseID": "06af18b0-1f97-4282-8a4d-af53ae8d9377",
+            "id": 44
+        },
+        {
+            "artist": "ABBA",
+            "title": "Super Trouper",
+            "publishedAt": "1980-11-03",
+            "releaseID": "24944755-2f68-3778-974e-f572a9e30108",
+            "id": 53
+        },
+        {
+            "artist": "Nothing But Thieves",
+            "title": "Moral Panic",
+            "publishedAt": "2020-10-23",
+            "releaseID": "71c5027e-7d5d-4ab3-857b-7995a2b6578a",
+            "id": 54
         }
     ],
     "wishlist": [
@@ -311,13 +339,6 @@
             "id": 43
         },
         {
-            "artist": "Hozier",
-            "title": "Hozier",
-            "publishedAt": "2014-06-10",
-            "releaseID": "06af18b0-1f97-4282-8a4d-af53ae8d9377",
-            "id": 44
-        },
-        {
             "artist": "Kid Cudi",
             "title": "Man on the Moon: The End of Day",
             "publishedAt": "2009-09-11",
@@ -330,13 +351,6 @@
             "publishedAt": "2011-12-01",
             "releaseID": "c2eed4c1-5cd9-469a-9075-b82077093967",
             "id": 46
-        },
-        {
-            "artist": "Pink Floyd",
-            "title": "The Wall",
-            "publishedAt": "1979-11-30",
-            "releaseID": "f2026101-945b-3d05-9ef4-aa718fc3feef",
-            "id": 47
         },
         {
             "artist": "Future Islands",
@@ -375,6 +389,6 @@
         }
     ],
     "metadata": {
-        "lastUsedID": 52
+        "lastUsedID": 54
     }
 }
