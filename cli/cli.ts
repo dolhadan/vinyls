@@ -1,8 +1,7 @@
 import { Command } from 'commander';
 import inquirer from 'inquirer';
-import { MusicBrainzApi, CoverArtArchiveApi, IImage } from 'musicbrainz-api';
-import fs from 'fs';
-import { createWriteStream } from 'fs';
+import { MusicBrainzApi, CoverArtArchiveApi } from 'musicbrainz-api';
+import { createWriteStream, readFileSync, writeFileSync } from 'fs';
 import { pipeline } from 'stream/promises';
 import axios from 'axios';
 
@@ -27,14 +26,14 @@ const program = new Command();
 const mbApi = new MusicBrainzApi({
     appName: 'vinyls-cli',
     appVersion: '1.0.0',
-    appContactInfo: 'your@email.com',
+    appContactInfo: 'dolha.dan@gmail.com',
 });
 
 const coverArtApi = new CoverArtArchiveApi();
 
 function readCollection(): Collection {
     try {
-        return JSON.parse(fs.readFileSync('./src/collections.json', 'utf-8'));
+        return JSON.parse(readFileSync('./src/collections.json', 'utf-8'));
     } catch {
         console.log("Couldn't read collection file");
         return {
@@ -48,7 +47,7 @@ function readCollection(): Collection {
 }
 
 function saveCollection(collection: Collection) {
-    fs.writeFileSync('./src/collections.json', JSON.stringify(collection, null, 2), 'utf-8');
+    writeFileSync('./src/collections.json', JSON.stringify(collection, null, 2), 'utf-8');
 }
 
 async function downloadImage(imageUrl: string, savePath: string): Promise<void> {

@@ -223,6 +223,41 @@
             "publishedAt": "2020-10-23",
             "releaseID": "71c5027e-7d5d-4ab3-857b-7995a2b6578a",
             "id": 54
+        },
+        {
+            "artist": "Louis Armstrong",
+            "title": "C'est si bon",
+            "publishedAt": "1990",
+            "releaseID": "49d998e7-0028-3951-a834-a0803f85d46b",
+            "id": 55
+        },
+        {
+            "artist": "Elton John",
+            "title": "Diamonds",
+            "publishedAt": "2017-11-03",
+            "releaseID": "5dc32bc2-f734-4cff-b9c5-f9594d785148",
+            "id": 56
+        },
+        {
+            "artist": "Sade",
+            "title": "Diamond Life",
+            "publishedAt": "1984-07-28",
+            "releaseID": "af2a0c41-e612-3232-949d-bdca340c407c",
+            "id": 57
+        },
+        {
+            "artist": "Earth, Wind & Fire",
+            "title": "Dance Trax",
+            "publishedAt": "1988",
+            "releaseID": "d6a0570c-c8e1-3364-9ba7-9bb31c8deaee",
+            "id": 58
+        },
+        {
+            "artist": "New Order",
+            "title": "Blue Monday 1988",
+            "publishedAt": "1988-03",
+            "releaseID": "4bfc44d9-fc1f-3307-9d45-741467c29a77",
+            "id": 59
         }
     ],
     "wishlist": [
@@ -389,6 +424,6 @@
         }
     ],
     "metadata": {
-        "lastUsedID": 54
+        "lastUsedID": 59
     }
 }
