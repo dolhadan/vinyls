@@ -258,6 +258,20 @@
             "publishedAt": "1988-03",
             "releaseID": "4bfc44d9-fc1f-3307-9d45-741467c29a77",
             "id": 59
+        },
+        {
+            "artist": "Phoenix",
+            "title": "Mugur De Fluier",
+            "publishedAt": "1973",
+            "releaseID": "a860e82e-7fbe-3232-be6a-ee7d15244914",
+            "id": 60
+        },
+        {
+            "artist": "Jungle",
+            "title": "Volcano",
+            "publishedAt": "2023-08-11",
+            "releaseID": "07bd527b-afe9-405b-bc92-0766cb280d05",
+            "id": 61
         }
     ],
     "wishlist": [
@@ -424,6 +438,6 @@
         }
     ],
     "metadata": {
-        "lastUsedID": 59
+        "lastUsedID": 61
     }
 }
