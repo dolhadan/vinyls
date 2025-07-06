@@ -272,6 +272,41 @@
             "publishedAt": "2023-08-11",
             "releaseID": "07bd527b-afe9-405b-bc92-0766cb280d05",
             "id": 61
+        },
+        {
+            "artist": "Nu Guinea",
+            "title": "Nuova Napoli",
+            "publishedAt": "2018-04-07",
+            "releaseID": "80490dca-9404-4145-bab4-6fd0251e2dda",
+            "id": 62
+        },
+        {
+            "artist": "Toto",
+            "title": "Toto",
+            "publishedAt": "1978-10-10",
+            "releaseID": "2b76e8ed-d20b-35a5-b7b9-f6e8e709235e",
+            "id": 63
+        },
+        {
+            "artist": "The Revivalists",
+            "title": "Take Good Care",
+            "publishedAt": "2018-11-09",
+            "releaseID": "256c7478-c8d4-48b8-b3d7-0ce21ac44dd5",
+            "id": 64
+        },
+        {
+            "artist": "Portugal. The Man",
+            "title": "Woodstock",
+            "publishedAt": "2017-06-15",
+            "releaseID": "d18f6a72-abf4-4dc0-9bef-89c31d8ee877",
+            "id": 65
+        },
+        {
+            "artist": "Khruangbin",
+            "title": "Mordechai",
+            "publishedAt": "2020-06-26",
+            "releaseID": "53e6ec80-ddc7-4db8-80f8-5e081545c856",
+            "id": 66
         }
     ],
     "wishlist": [
@@ -438,6 +473,6 @@
         }
     ],
     "metadata": {
-        "lastUsedID": 61
+        "lastUsedID": 66
     }
 }
