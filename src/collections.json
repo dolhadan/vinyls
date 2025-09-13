@@ -307,6 +307,34 @@
             "publishedAt": "2020-06-26",
             "releaseID": "53e6ec80-ddc7-4db8-80f8-5e081545c856",
             "id": 66
+        },
+        {
+            "artist": "Nick Cave and the Bad Seeds",
+            "title": "Nocturama",
+            "publishedAt": "2003-02-03",
+            "releaseID": "29c29d84-1642-3217-b7b0-161d45b01487",
+            "id": 67
+        },
+        {
+            "artist": "Talk Talk",
+            "title": "It’s My Life",
+            "publishedAt": "1984-02",
+            "releaseID": "84cf35fd-adb5-3fdd-9eec-8535b134be13",
+            "id": 68
+        },
+        {
+            "artist": "CHVRCHES",
+            "title": "The Bones of What You Believe",
+            "publishedAt": "2013-09-20",
+            "releaseID": "b2cbaa83-cb77-4961-8ca3-816b24e5204f",
+            "id": 69
+        },
+        {
+            "artist": "Dire Straits",
+            "title": "Love Over Gold",
+            "publishedAt": "1982-09-20",
+            "releaseID": "935dde7e-8390-39fa-8e0d-1350db96bc3f",
+            "id": 70
         }
     ],
     "wishlist": [
@@ -473,6 +501,6 @@
         }
     ],
     "metadata": {
-        "lastUsedID": 66
+        "lastUsedID": 70
     }
 }
