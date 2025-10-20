@@ -335,6 +335,20 @@
             "publishedAt": "1982-09-20",
             "releaseID": "935dde7e-8390-39fa-8e0d-1350db96bc3f",
             "id": 70
+        },
+        {
+            "artist": "The Strokes",
+            "title": "Is This It",
+            "publishedAt": "2001-01-27",
+            "releaseID": "efea26d1-a016-30f6-b8e2-bc8c02336b0a",
+            "id": 71
+        },
+        {
+            "artist": "Biffy Clyro",
+            "title": "Futique",
+            "publishedAt": "2025-09-19",
+            "releaseID": "dc8c9ca6-7297-4236-a28f-ea6959d48c1b",
+            "id": 72
         }
     ],
     "wishlist": [
@@ -501,6 +515,6 @@
         }
     ],
     "metadata": {
-        "lastUsedID": 70
+        "lastUsedID": 72
     }
 }
