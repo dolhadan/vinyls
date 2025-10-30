@@ -349,6 +349,27 @@
             "publishedAt": "2025-09-19",
             "releaseID": "dc8c9ca6-7297-4236-a28f-ea6959d48c1b",
             "id": 72
+        },
+        {
+            "artist": "Spandau Ballet",
+            "title": "True",
+            "publishedAt": "1983-03-04",
+            "releaseID": "60605247-c6b1-37fc-b18a-1f9dab47dd9d",
+            "id": 39
+        },
+        {
+            "artist": "The Smashing Pumpkins",
+            "title": "Mellon Collie and the Infinite Sadness",
+            "publishedAt": "1995-10-23",
+            "releaseID": "1af599c9-0b44-3a5a-a06b-39e8db6b2b4e",
+            "id": 51
+        },
+        {
+            "artist": "The National",
+            "title": "Laugh Track",
+            "publishedAt": "2023-09-18",
+            "releaseID": "d24630a6-850c-415f-afc1-2fc51ad59d7c",
+            "id": 73
         }
     ],
     "wishlist": [
@@ -430,13 +451,6 @@
             "id": 38
         },
         {
-            "artist": "Spandau Ballet",
-            "title": "True",
-            "publishedAt": "1983-03-04",
-            "releaseID": "60605247-c6b1-37fc-b18a-1f9dab47dd9d",
-            "id": 39
-        },
-        {
             "artist": "twenty one pilots",
             "title": "Blurryface",
             "publishedAt": "2015-05-15",
@@ -500,13 +514,6 @@
             "id": 50
         },
         {
-            "artist": "The Smashing Pumpkins",
-            "title": "Mellon Collie and the Infinite Sadness",
-            "publishedAt": "1995-10-23",
-            "releaseID": "1af599c9-0b44-3a5a-a06b-39e8db6b2b4e",
-            "id": 51
-        },
-        {
             "artist": "The Temper Trap",
             "title": "Conditions",
             "publishedAt": "2009-06-19",
@@ -515,6 +522,6 @@
         }
     ],
     "metadata": {
-        "lastUsedID": 72
+        "lastUsedID": 73
     }
 }
