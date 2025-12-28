@@ -370,6 +370,48 @@
             "publishedAt": "2023-09-18",
             "releaseID": "d24630a6-850c-415f-afc1-2fc51ad59d7c",
             "id": 73
+        },
+        {
+            "artist": "Future Islands",
+            "title": "Singles",
+            "publishedAt": "2014-03-24",
+            "releaseID": "82b000c5-b4ca-4c6d-8ea1-68622dda00c8",
+            "id": 48
+        },
+        {
+            "artist": "Sam Fender",
+            "title": "Hypersonic Missiles",
+            "publishedAt": "2019-09-13",
+            "releaseID": "0785a585-6516-4cde-a783-65ff5044fdd8",
+            "id": 49
+        },
+        {
+            "artist": "Tony Bennett",
+            "title": "Snowfall: The Tony Bennett Christmas Album",
+            "publishedAt": "1968",
+            "releaseID": "34e92ab8-9162-3892-b3d8-a80dfa21134d",
+            "id": 74
+        },
+        {
+            "artist": "Tony Bennett",
+            "title": "Snowfall: The Tony Bennett Christmas Album",
+            "publishedAt": "1968",
+            "releaseID": "34e92ab8-9162-3892-b3d8-a80dfa21134d",
+            "id": 75
+        },
+        {
+            "artist": "Red Hot Chili Peppers",
+            "title": "Californication",
+            "publishedAt": "1999-04-30",
+            "releaseID": "ca5dfcc3-83fb-3eee-9061-c27296b77b2c",
+            "id": 76
+        },
+        {
+            "artist": "Boney M.",
+            "title": "Oceans of Fantasy",
+            "publishedAt": "1979",
+            "releaseID": "9c80f1b1-5140-3b6a-99fd-9379998ca1d3",
+            "id": 77
         }
     ],
     "wishlist": [
@@ -493,20 +535,6 @@
             "id": 46
         },
         {
-            "artist": "Future Islands",
-            "title": "Singles",
-            "publishedAt": "2014-03-24",
-            "releaseID": "82b000c5-b4ca-4c6d-8ea1-68622dda00c8",
-            "id": 48
-        },
-        {
-            "artist": "Sam Fender",
-            "title": "Hypersonic Missiles",
-            "publishedAt": "2019-09-13",
-            "releaseID": "0785a585-6516-4cde-a783-65ff5044fdd8",
-            "id": 49
-        },
-        {
             "artist": "Kasabian",
             "title": "For Crying Out Loud",
             "publishedAt": "2017-05-05",
@@ -522,6 +550,6 @@
         }
     ],
     "metadata": {
-        "lastUsedID": 73
+        "lastUsedID": 77
     }
 }
