@@ -412,6 +412,13 @@
             "publishedAt": "1979",
             "releaseID": "9c80f1b1-5140-3b6a-99fd-9379998ca1d3",
             "id": 77
+        },
+        {
+            "artist": "twenty one pilots",
+            "title": "Blurryface",
+            "publishedAt": "2015-05-15",
+            "releaseID": "cf556b32-6f0c-4d32-9cbb-cc219a20566f",
+            "id": 40
         }
     ],
     "wishlist": [
@@ -493,13 +500,6 @@
             "id": 38
         },
         {
-            "artist": "twenty one pilots",
-            "title": "Blurryface",
-            "publishedAt": "2015-05-15",
-            "releaseID": "cf556b32-6f0c-4d32-9cbb-cc219a20566f",
-            "id": 40
-        },
-        {
             "artist": "Middle Kids",
             "title": "Middle Kids",
             "publishedAt": "2017-02-17",
@@ -547,9 +547,93 @@
             "publishedAt": "2009-06-19",
             "releaseID": "e2bf2daf-6ed1-4e4b-806e-460990cca6d9",
             "id": 52
+        },
+        {
+            "artist": "Kate Bush",
+            "title": "Hounds of Love",
+            "publishedAt": "1985-07-30",
+            "releaseID": "017f2a37-a78f-3578-9611-fa40408e5d90",
+            "id": 80
+        },
+        {
+            "artist": "Beck",
+            "title": "Morning Phase",
+            "publishedAt": "2014-02-21",
+            "releaseID": "bc4e1c5e-1fea-468d-b0ac-78b1c7f415f4",
+            "id": 81
+        },
+        {
+            "artist": "Bloc Party",
+            "title": "Silent Alarm",
+            "publishedAt": "2005-02-02",
+            "releaseID": "f3f82b80-b2c5-3151-be53-5cb5803860e0",
+            "id": 82
+        },
+        {
+            "artist": "Men at Work",
+            "title": "Who Can It Be Now?",
+            "publishedAt": "1981",
+            "releaseID": "8ddfc367-14e5-4c77-909b-9097439a53c0",
+            "id": 83
+        },
+        {
+            "artist": "Depeche Mode",
+            "title": "Songs of Faith and Devotion",
+            "publishedAt": "1993-03-22",
+            "releaseID": "e171597d-e6d5-36c8-8d0e-63daf79796b8",
+            "id": 85
+        },
+        {
+            "artist": "Glass Animals",
+            "title": "How to Be a Human Being",
+            "publishedAt": "2016-08-26",
+            "releaseID": "122e15fb-266e-4b72-91e2-bb7737394365",
+            "id": 86
+        },
+        {
+            "artist": "Dire Straits",
+            "title": "Communiqué",
+            "publishedAt": "1979-04",
+            "releaseID": "7e1ada24-6fb0-3b23-a671-9cdaf865c515",
+            "id": 87
+        },
+        {
+            "artist": "Public Service Broadcasting",
+            "title": "Inform – Educate – Entertain",
+            "publishedAt": "2013-05-06",
+            "releaseID": "82a75107-a04a-4b68-8b5a-da8119c23a21",
+            "id": 88
+        },
+        {
+            "artist": "Gang of Youths",
+            "title": "Go Farther in Lightness",
+            "publishedAt": "2017-08-17",
+            "releaseID": "1ea97022-27ba-4bf5-8ab5-4ae76836e1c1",
+            "id": 89
+        },
+        {
+            "artist": "Florence + the Machine",
+            "title": "Lungs",
+            "publishedAt": "2009-06-13",
+            "releaseID": "50fe703f-173e-496a-9155-b2a495d704e5",
+            "id": 91
+        },
+        {
+            "artist": "The Killers",
+            "title": "Hot Fuss",
+            "publishedAt": "2004-06-07",
+            "releaseID": "e8c09b4e-33ae-368b-8f70-24b4e14fb9ad",
+            "id": 78
+        },
+        {
+            "artist": "Jeff Buckley",
+            "title": "Grace",
+            "publishedAt": "1994-08-15",
+            "releaseID": "ea29c347-696f-3165-986d-7bad1394b178",
+            "id": 79
         }
     ],
     "metadata": {
-        "lastUsedID": 77
+        "lastUsedID": 91
     }
 }
