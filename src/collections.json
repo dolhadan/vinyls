@@ -419,6 +419,20 @@
             "publishedAt": "2015-05-15",
             "releaseID": "cf556b32-6f0c-4d32-9cbb-cc219a20566f",
             "id": 40
+        },
+        {
+            "artist": "Dire Straits",
+            "title": "Communiqué",
+            "publishedAt": "1979-04",
+            "releaseID": "7e1ada24-6fb0-3b23-a671-9cdaf865c515",
+            "id": 87
+        },
+        {
+            "artist": "Florence + the Machine",
+            "title": "Lungs",
+            "publishedAt": "2009-06-13",
+            "releaseID": "50fe703f-173e-496a-9155-b2a495d704e5",
+            "id": 91
         }
     ],
     "wishlist": [
@@ -590,13 +604,7 @@
             "releaseID": "122e15fb-266e-4b72-91e2-bb7737394365",
             "id": 86
         },
-        {
-            "artist": "Dire Straits",
-            "title": "Communiqué",
-            "publishedAt": "1979-04",
-            "releaseID": "7e1ada24-6fb0-3b23-a671-9cdaf865c515",
-            "id": 87
-        },
+    
         {
             "artist": "Public Service Broadcasting",
             "title": "Inform – Educate – Entertain",
@@ -610,13 +618,6 @@
             "publishedAt": "2017-08-17",
             "releaseID": "1ea97022-27ba-4bf5-8ab5-4ae76836e1c1",
             "id": 89
-        },
-        {
-            "artist": "Florence + the Machine",
-            "title": "Lungs",
-            "publishedAt": "2009-06-13",
-            "releaseID": "50fe703f-173e-496a-9155-b2a495d704e5",
-            "id": 91
         },
         {
             "artist": "The Killers",
