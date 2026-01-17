@@ -433,6 +433,26 @@
             "publishedAt": "2009-06-13",
             "releaseID": "50fe703f-173e-496a-9155-b2a495d704e5",
             "id": 91
+        }, {
+            "artist": "The Beach Boys",
+            "title": "Supergold",
+            "publishedAt": "1983-01-01",
+            "releaseID": "50fe703f-173e-496a-9155-b2a495d704e5",
+            "id": 92
+        },
+        {
+            "artist": "The National",
+            "title": "Sad Songs for Dirty Lovers",
+            "publishedAt": "2003-05",
+            "releaseID": "8e150311-6285-3858-b50a-c3d08bac3c2e",
+            "id": 35
+        },
+        {
+            "artist": "Kid Cudi",
+            "title": "Man on the Moon: The End of Day",
+            "publishedAt": "2009-09-11",
+            "releaseID": "1b4bb003-db4c-4858-84ec-817aaca09501",
+            "id": 45
         }
     ],
     "wishlist": [
@@ -486,13 +506,6 @@
             "id": 34
         },
         {
-            "artist": "The National",
-            "title": "Sad Songs for Dirty Lovers",
-            "publishedAt": "2003-05",
-            "releaseID": "8e150311-6285-3858-b50a-c3d08bac3c2e",
-            "id": 35
-        },
-        {
             "artist": "Kings of Leon",
             "title": "Because of the Times",
             "publishedAt": "2007-03-30",
@@ -533,13 +546,6 @@
             "publishedAt": "2010-07-03",
             "releaseID": "bf306022-c851-449d-a619-7864caddf5c7",
             "id": 43
-        },
-        {
-            "artist": "Kid Cudi",
-            "title": "Man on the Moon: The End of Day",
-            "publishedAt": "2009-09-11",
-            "releaseID": "1b4bb003-db4c-4858-84ec-817aaca09501",
-            "id": 45
         },
         {
             "artist": "The Black Keys",
@@ -635,6 +641,6 @@
         }
     ],
     "metadata": {
-        "lastUsedID": 91
+        "lastUsedID": 92
     }
 }
